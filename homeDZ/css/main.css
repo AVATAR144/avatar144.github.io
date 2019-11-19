@@ -1,6 +1,6 @@
 html {
 	background: url(../img/bg.jpg) no-repeat center top;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	color: #fff;
 	font-family: Verdana, sans-serif;
