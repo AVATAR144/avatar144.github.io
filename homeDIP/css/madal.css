@@ -1,0 +1,205 @@
+.big{
+  display:none;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.8);
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 10;
+}
+.pin h3 {
+  font-size: 38px;
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 19px;
+  margin-left: -2px;
+}
+.pin p.zapform {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  font-weight: normal;
+  line-height: 21px;
+  margin-bottom: 3px;
+}
+.pin form p.vash {
+  margin: 0;
+  font-size: 16px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 4px;
+    margin-bottom: -7px;
+}
+input[type="text"],
+textarea{
+  background: #fff;
+  border-radius: 4px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #cccccc;
+  font-family: Verdana, sans-serif;
+  padding: 0;
+  height: 40px;
+  outline: none;
+  text-align: center;
+  border: 1px solid #000;
+}
+textarea {padding-top: 20px;
+  height: 100px;
+}
+form img.button_diz{
+  margin: 0;
+  margin-top: 33px;
+  margin-left: -10px;
+}
+form input[type="text"],
+textarea {
+  width: 100%;
+  margin-bottom: 2px;
+}
+.big:target{
+  display:block;
+}
+.big .close{
+  position:absolute;
+  top:-10px;
+  right:-6px;
+  border:1px solid black;
+  padding:2px 4px;
+  border-radius:50px;
+  background-color:black;
+  color:#fff;
+  text-decoration:none;
+}
+.big .close:active{
+  color: #6b6b6b;
+}
+.pin{
+  display: block;
+  float: right;
+  position:relative;
+  width: 542px;
+  height: 420px;
+  background-image: url(../img/mod_kub.jpg);
+  color:#000;
+  border-radius:5px;
+  padding: 24px 46px;
+  box-sizing: border-box; 
+  margin: 10% 35%;
+}
+.pon h3 {
+  font-size: 38px;
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 19px;
+  margin-left: -2px;
+}
+.pon p.zapform {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  font-weight: normal;
+  line-height: 21px;
+  margin-top: 65px;
+  margin-bottom: 3px;
+}
+.pon form p.vash {
+  margin: 0;
+  font-size: 16px;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+.pon{
+  display: block;
+  float: right;
+  position:relative;
+  width: 542px;
+  height: 567px;
+  background-image: url(../img/mod_pryam.jpg);
+  color:#000;
+  border-radius:5px;
+  padding: 24px 46px;
+  box-sizing: border-box; 
+  margin: 10% 35%;
+}
+.big .pon .close{
+  line-height: 23px;
+  font-size: 16px;
+  margin: 0;
+  position:absolute; 
+  top:-10px;
+  right:-6px;
+  padding:0 4px;
+  border-radius:50px;
+  background-color:black;
+  color:#fff;
+  text-decoration:none;
+}
+.big .pon .close:active{
+  color: #6b6b6b;
+}
+.poni{
+  display: block;
+  float: right;
+  position:relative;
+  width: 542px;
+  height: 189px;
+  background-image: url(../img/mod_sps.jpg);
+  color:#000;
+  border-radius:5px;
+  padding: 24px 46px;
+  box-sizing: border-box; 
+  margin: 300px 35%;
+}
+.big .poni .close{
+  line-height: 23px;
+  font-size: 16px;
+  margin: 0;
+  position:absolute; 
+  top:-10px;
+  right:-6px;
+  padding:0 4px;
+  border-radius:50px;
+  background-color:black;
+  color:#fff;
+  text-decoration:none;
+}
+.big .poni .close:active{
+  color: #6b6b6b;
+}
+.poni h3 {
+  font-size: 38px;
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 19px;
+  margin-left: -2px;
+}
+.poni p.zapform {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  font-weight: normal;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 3px;
+}
+.poni p.usp {
+  font-size: 38px;
+  text-align: left;
+  margin: 0;
+  font-weight: normal;
+  margin-top: 48px;
+  margin-bottom: 19px;
+  margin-left: -2px;
+}

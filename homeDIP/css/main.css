@@ -1,0 +1,726 @@
+.cf:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+html, body {
+	background: #fff;
+	color: #000;
+	font-family: verdana, sans-serif;
+}
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.topmenu {
+	margin-bottom: 42px;
+}
+.topmenu img  {
+	margin: 0 -480px;
+}
+.contact {
+	margin-top: -534px;
+	text-align: right;
+	margin-bottom: 57px;
+}
+.topmenu .contact .phone {
+	display: block;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 18px;
+	margin-bottom: 9px;
+}
+.topmenu .contact .address {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+}
+.topmenu .zagolovok {
+	text-align: left;
+	margin-top: -15px;
+	
+}
+.topmenu .zagolovok .remont {
+	display: block;
+	font-weight: bold;
+	font-size: 98px;
+	margin-bottom: 9px;
+	text-align: left;
+	margin-left: -8px;	
+}
+.topmenu .zagolovok  p.remont {
+	margin-bottom: 7px;
+}
+.topmenu .zagolovok .pod_kluch {
+	display: block;
+	font-weight: bold;
+	font-size: 32px;
+	margin-left: -2px;
+	margin-top: 26px;
+}
+.topmenu .snami p {
+	display: block;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 53px;
+}
+.topmenu .snami img {
+	margin: 0;
+}
+.topmenu .snami ul.portner {
+	display: block;
+	margin: 27px 0 0 0;	
+
+}
+.topmenu ul.portner > li {
+	display: block;
+	padding: 0 17px 0 0;
+	display: inline;
+}
+div .dizpro img.bg  {
+	display: block;
+	margin: 0;
+	margin-top: 80px;
+	float: left;
+}
+.win{
+	display: block;
+	float: right;
+	position:relative;
+	width: 470px;
+	background:rgba(255, 255, 255, 0.8);
+	color:#000;
+	border-radius:5px;
+	padding: 49px 0 0 25px ;
+	box-sizing: border-box;	
+	margin-bottom: 53px;
+}
+.win h3 {
+	font-size: 38px;
+	text-align: left;
+	margin: 0;
+	font-weight: bold;
+	line-height: 42px;
+}
+.win p {
+	font-size: 38px;
+	text-align: left;
+	margin: 0;
+	font-weight: normal;
+	line-height: 42px;
+	margin-bottom: 28px;
+}
+.win p.cshech {
+	font-size: 16px;
+	text-align: left;
+	margin: 0;
+	font-weight: normal;
+	line-height: 21px;
+}
+.win img.strel {
+	margin: 0;
+	margin-top: -15px;
+	padding: 0 0 0 156px;
+	position: absolute;
+}
+.win form p.vash {
+	margin: 0;
+	font-size: 16px;
+  	text-align: left;
+  	margin-top: 0;
+  	margin-left: 4px;
+  	margin-bottom: -7px;
+}
+input[type="text"]{
+	background: #fff;
+	border-radius: 4px;
+	border: none;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #cccccc;
+	font-family: Verdana, sans-serif;
+	padding: 0;
+	height: 40px;
+	outline: none;
+	text-align: center;
+	border: 1px solid #000;
+}
+form img.button_diz{
+	margin: 0;
+	margin-top: 33px;
+	margin-left: -10px;
+}
+form input[type="text"] {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.yay img  {
+	margin: 0 -480px;
+	position: relative;
+}
+div .kub {
+	margin-top: -191px;
+	position: absolute;
+	margin-bottom: 100px;
+}
+div .ya {
+	width: 189px;
+	height: 189px;
+	background-image: url(../img/orang_kub.jpg);
+	display: block;
+	float: left;
+	margin-right: 61px;
+	color: #fff;
+	text-align: center;
+}
+div .ya:last-child {
+	margin-right: 0;
+}
+.ya h3.chif {
+	font-size: 65px;
+	font-weight: bold;
+	margin-top: 42px;
+	margin-bottom: 4px;
+}
+.ya p {
+	line-height: 24px;
+}
+.vidrab  {
+	margin-bottom: 10px;
+	height: 549px;
+}
+.vidrab h3 {
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 48px;
+}
+.vidrab .items .od{
+	margin-top: 56px;
+}
+.vidrab .items .tem {
+	height: 43px;
+	box-sizing: border-box;
+}
+.vidrab .items .tem img {
+	float: left;
+	margin-top: -5px;
+	margin-right: 8px;
+}
+.vidrab .items .tem h3 {
+	margin: 0;
+	float: left;
+	width: 200px;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+.vidrab .items .tem p {
+	float: left;
+	width: 196px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.vidrab h3.oda  {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.vidrab ul {
+	list-style-type: square;
+	margin-top: 8px;
+	margin-left: 10px;	
+	margin-bottom: 15px;
+}
+.vidrab ul li {
+	color: #ff6600;
+	margin-left: 7px;
+	width: 280px;
+	line-height: 20px;
+}
+.vidrab ul span {
+	color: #666666;
+	font-size: 13px;
+	margin-left: -6px;
+}
+.vidrab .items .item {
+	background: rgba(255,255,255,.8);
+	border-radius: 5px;
+	height: 360px;
+	box-sizing: border-box;
+	position: relative;
+	width: 278px;
+	float: left;
+	margin: 56px 22px 20px 20px;
+}
+.vidrab .items .item .image_block {
+	height: 270px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.vidrab .od {
+	background: rgba(255,255,255,.8);
+	border-radius: 5px;
+	height: 360px;
+	box-sizing: border-box;
+	position: relative;
+	width: 278px;
+	float: left;
+	margin: 0 22px 20px 0;
+}
+.semdov img.bg  {
+	height: 1386px;
+	margin: 0 -480px;
+	position: relative;
+}
+.semdov img.valik_left  {
+	width: 873px;
+	height: 171px;
+	margin: 0;
+	margin-left:-376px;
+	position: absolute;
+}
+.semdov img.dva  {
+	width: 873px;
+	height: 171px;
+	margin: 0;
+	margin-top: 16px;
+	margin-left:-376px;
+}
+.semdov img.valik_right  {
+	width: 873px;
+	height: 171px;
+	margin: 0;
+	margin-top: 189px;
+	margin-left:497px;
+}
+.semdov img.tri  {
+	width: 873px;
+	height: 171px;
+	margin: 0;
+	margin-top: 37px;
+	margin-left:497px;
+}
+.semdov img.chetiri  {
+	width: 873px;
+	height: 171px;
+	margin: 0;
+	margin-top: 16px;
+	margin-left:-376px;
+}
+.semdov img.pyat  {
+	width: 873px;
+	height: 171px;
+	margin: 0;
+	margin-top: 16px;
+	margin-left:497px;
+}
+.semdov .vidrabot {
+	position: absolute;
+	width: 960px;
+	margin-top:-1338px ;
+	text-align: left;
+}
+.semdov .vidrabot h3 {
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.semdov .vidrabot p {	
+	font-size: 38px;
+	font-weight: normal;
+	margin-bottom: 39px;
+}
+.semdov .vidrabot h3.za {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 39px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.podza {	
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: 70px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.tex {	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 110px;
+	margin-bottom: 39px;
+	color: #f9f9f9;
+	line-height: 17px;
+	position: absolute;
+}
+.semdov .vidrabot h3.za_right {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: -134px;
+	margin-left: 523px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.podza_right {	
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: -103px;
+	margin-left: 525px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.tex_right {	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -62px;
+	margin-left: 527px;
+	margin-bottom: 39px;
+	color: #f9f9f9;
+	line-height: 17px;
+	position: absolute;
+}
+.vidrabot a {
+	font-size: 22px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	line-height: 33px;
+	border-bottom: 1px dashed #000;	
+	text-align: right;	
+	margin-left: 123px;
+	margin-top: -101px;
+	position: absolute;
+}
+.semdov .vidrabot h3.zadva {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: -134px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.podzadva {	
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: -103px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.texdva {	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -62px;
+	margin-bottom: 39px;
+	color: #f9f9f9;
+	line-height: 17px;
+	position: absolute;
+}
+.semdov .vidrabot h3.zatri {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: -134px;
+	margin-left: 526px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.podzatri {	
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: -103px;
+	margin-left: 526px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.textri {	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -62px;
+	margin-left: 527px;
+	margin-bottom: 39px;
+	color: #f9f9f9;
+	line-height: 17px;
+	position: absolute;
+}
+.semdov .vidrabot h3.zachetiri {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: -134px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.podzachetiri {	
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: -103px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.texchetiri {	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -62px;
+	margin-bottom: 39px;
+	color: #f9f9f9;
+	line-height: 17px;
+	position: absolute;
+}
+.semdov .vidrabot h3.zapyat {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: -134px;
+	margin-left: 526px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.podzapyat {	
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: -103px;
+	margin-left: 526px;
+	color: #fff;
+	position: absolute;
+}
+.semdov .vidrabot p.texpyat {	
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -62px;
+	margin-left: 527px;
+	margin-bottom: 39px;
+	color: #f9f9f9;
+	line-height: 17px;
+	position: absolute;
+}
+div .dizpro img.chel  {
+	display: block;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+.plash {
+	width: 199px;
+	height: 56px;
+	background-image: url(../img/orang_plit.jpg);
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	margin: 520px 0 0 60px;
+	padding-top: 16px;
+}
+.plash h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.plash p {
+	font-size: 16px;
+	font-weight: normal;
+}
+.ekonom{
+	display: block;
+	float: right;
+	position:relative;
+	width: 470px;
+	background:rgba(255, 255, 255, 0.8);
+	color:#000;
+	border-radius:5px;
+	padding: 178px 0 0 25px ;
+	box-sizing: border-box;	
+	margin-bottom: 53px;
+}
+.ekonom h3 {
+	font-size: 38px;
+	text-align: left;
+	margin: 0;
+	font-weight: bold;
+	line-height: 42px;
+}
+.ekonom p {
+	font-size: 38px;
+	text-align: left;
+	margin: 0;
+	font-weight: normal;
+	line-height: 42px;
+	margin-bottom: 19px;
+}
+.ekonom p.zayav {
+	font-size: 16px;
+	text-align: left;
+	margin: 0;
+	font-weight: normal;
+	line-height: 21px;
+	margin-bottom: 3px;
+}
+.ekonom form p.vash {
+	margin: 0;
+	font-size: 16px;
+  	text-align: left;
+  	margin-top: 0;
+  	margin-left: 4px;
+  	margin-bottom: -7px;
+}
+form img.button_kons{
+	margin: 0;
+	margin-top: 33px;
+	margin-left: -10px;
+}
+.vipobiekt img  {
+	height: 1228px;
+	margin: 0 -480px;
+	position: relative;
+}
+.vipobiekt .obiekti {
+	position: absolute;
+	width: 960px;
+	margin-top:-1173px ;
+	text-align: center;
+}
+.vipobiekt .obiekti h3 {
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.vipobiekt .obiekti p {	
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 52px;
+}
+.blog {
+	float: left;
+	margin-bottom: 42px;
+}
+div .obiekti img.foto  {
+	width: 540px;
+	height: 294px;
+	display: block;	
+	box-sizing: border-box;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+.obiekti .trikom {
+	background-image: url(../img/orang_fon.jpg);
+	width: 400px;
+	height: 294px;
+	color: #fff;
+	box-sizing: border-box;
+	text-align: left;
+	padding-top: 28px;	
+	float: right;	
+	position: relative;
+}
+.obiekti .trikom h3 {
+	margin: 0;	
+	margin-left: 19px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 31px;
+	text-transform: uppercase;
+}
+.obiekti .trikom p {
+	margin: 0;	
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+.obiekti .trikom p.zag {
+	font-weight: bold;
+}
+.obiekti a {
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px dashed #000;	
+	text-align: right;	
+	top: 248px;
+	left: 164px;
+	line-height: 24px;
+	position: absolute;
+}
+.contaktinfo{
+	height: 506px;
+}
+.contaktinfo img.karta  {
+	display: block;	
+	box-sizing: border-box;
+	margin: 0;
+	float: right;
+	position: relative;
+	margin-top: 63px;
+}
+.contaktinfo .trikom {
+	color: #000;
+	box-sizing: border-box;
+	text-align: left;
+	padding-top: 28px;	
+	float: left;	
+	position: relative;
+}
+.contaktinfo .trikom h3 {
+	margin: 0;	
+	font-size: 38px;
+	font-weight: bold;
+	margin-top: 22px;
+	margin-bottom: 4px;
+}
+.contaktinfo .trikom p.inf {
+	margin: 0;
+	font-size: 38px;
+	font-weight: normal;
+	color: #000;
+	margin-bottom: 26px;
+}
+.contaktinfo .trikom p {
+	margin: 0;	
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	margin-bottom: 28px;
+}
+ .trikom p.zagol {
+ 	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 6px;
+}
+.voprosi img  {
+	height: 105px;
+	margin: 0 -480px;
+	position: relative;
+}
+.voprosi h3 {
+	margin: 0;	
+	position: absolute;
+	font-size: 38px;
+	font-weight: bold;
+	margin-top: -77px;
+	margin-bottom: 4px;
+}
+.voprosi a {
+	font-size: 18px;
+	font-weight: normal;
+	color: #ff6600;
+	text-decoration: none;
+	border-bottom: 1px dashed #f9a772;	
+	text-align: right;	
+	margin-left: 600px;
+	margin-top: -75px;
+	position: absolute;
+	line-height: 28px;
+}
+.futter {
+	height: 51px;
+	text-align: center;
+	font-size: 13px;
+	color: #000;
+	margin-top: 29px;
+}
+.futter a {
+	color: #ff6600;
+	text-decoration: none;
+}
