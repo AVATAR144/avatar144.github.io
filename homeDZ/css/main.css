@@ -1,0 +1,410 @@
+html {
+	background: url(../img/bg.jpg) no-repeat center top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+}
+.cf:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+button {
+	background: rgba(0,0,0,0);
+	padding: 0 48px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 14px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 38px;
+	cursor: pointer;
+	outline: none;
+}
+button:hover {
+	background: rgba(0,0,0,.1);
+}
+button:active {
+	background: rgba(0,0,0,.2);
+}
+.wrapper {
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.topmenu {
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 25px;
+}
+.topmenu .logo {
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 114px;
+	height: 57px;
+	background: url(../img/logo.png) no-repeat center center;	
+}
+.topmenu .contact {
+	margin: 0 0 20px 0;
+
+}
+.topmenu .contact .phone {
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+.topmenu .contact .schedule {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+.topmenu ul.menu {
+	list-style: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.topmenu ul.menu > li {
+	display: block;
+	padding: 0;
+	margin: 22px 0 0 0;	
+}
+.topmenu ul.menu > li:first-child {
+	margin-top: 0;
+}
+.topmenu ul.menu > li > a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 14px;
+}
+.topmenu ul.menu > li > a:hover {
+	text-decoration: underline;
+}
+.topmenu ul.menu > li > a:active {
+	text-decoration: none;
+	color: #b6b6b6;
+}
+.body {
+	margin-bottom: 30px;
+}
+.sidebar {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.sidebar ul.menu {
+	background: rgba(255,255,255,.8);
+	color: #000;
+	border-radius: 5px;
+	display: block;
+	padding: 24px 0;
+	margin: 0;
+	list-style: none;
+}
+.sidebar ul.menu > li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.sidebar ul.menu > li:last-child a {
+	margin: 0;
+}
+.sidebar ul.menu > li a {
+	display: block;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	line-height: 18px;
+	position: relative;
+	padding: 0 0 12px 0;
+}
+.sidebar ul.menu > li a:before {
+	content: '';
+	display: block;
+	height: 0px;
+	width: 58px;
+	margin: 0 -29px;
+	position: absolute;
+	bottom: 0;
+	border-bottom: 1px solid #000;
+	left: 50%;
+}
+.sidebar ul.menu > li a:hover {
+	color: #6b6b6b;
+}
+.sidebar ul.menu > li a:hover:before{
+	content: none;
+}
+.sidebar ul.menu > li a:active:before{
+	content: '';
+	border-color: #6b6b6b;
+}
+.white_content{
+	background: rgba(255, 255, 255, .8);
+	border-radius: 5px;
+	padding: 20px;
+}
+.table_radius {
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.table_radius table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.table_radius table tr td,
+.table_radius table tr th {
+	border: 1px solid #000;
+	color: #000;
+	font-size: 12px;
+	text-align: left;
+	padding: 0 20px;
+	height: 31px;
+}
+.table_radius table tr td:first-child,
+.table_radius table tr th:first-child {
+	border-left: none;
+}
+.table_radius table tr td:last-child,
+.table_radius table tr th:last-child {
+	border-right: none;
+}
+.table_radius table tr:first-child td,
+.table_radius table tr:first-child th {
+	border-top: none;
+}
+.table_radius table tr:last-child td,
+.table_radius table tr:last-child th {
+	border-bottom: none;
+}
+.table_radius table tr th {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.products {
+	margin-bottom: 40px;
+}
+.products:last-child{
+	margin: 0;
+}
+.products h4 {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 18px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 8px;
+	margin: 0 0 16px 0;
+}
+.products h4:before {
+	content: "";
+	display: block;
+	width: 58px;
+	height: 0;
+	margin: 0 -29px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	border-bottom: 1px solid #fff;
+}
+.products .items .item {
+	background: rgba(255,255,255,.8);
+	border-radius: 5px;
+	height: 360px;
+	box-sizing: border-box;
+	padding: 20px;
+	position: relative;
+	margin: 0 0 15px 0;
+}
+.products .items .item .new_plank {
+	width: 80px;
+	height: 80px;
+	background: url(../img/new.png) no-repeat center center;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.products .items .item .image_block {
+	height: 270px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.products .items .item button {
+	display: block;
+	height: 30px;
+	margin: 20px auto 0 auto;
+}
+.footer {
+	text-align: center;
+	padding: 0 10px 50px 10px;
+	box-sizing: border-box;
+}
+.footer .copyright {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 0 20px 0;
+}
+.footer .copyright .designed {
+	margin: 0;
+}
+.footer .copyright a {
+	color: inherit;
+}
+.footer .rights {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+.footer .schedule {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 0 24px 0;
+}
+.gotop {
+	width: 58px;
+	height: 58px;
+	background: url(../img/gotop_mobile.png) no-repeat center center;
+	cursor: pointer;
+	border-right: 50%;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+.gotop:hover {
+	background: url(../img/knopka_aktiv.png) no-repeat;	
+}
+.gotop:active {
+	background: url(../img/knopka_pres.png) no-repeat;	
+}
+
+@media (min-width: 980px) {
+	html, body, body > .wrapper {
+		min-height: 100%;
+		height: 1px;
+	}
+	body > .wrapper {
+		padding-bottom: 79px;
+		height: auto;
+		position: relative;
+	}
+	.gotop {
+		background: url(../img/gotop.png) no-repeat center center;
+	}
+	.wrapper{
+		width: 980px;
+	}
+	.topmenu {
+		padding: 20px 10px 0 10px;
+		margin-bottom: 10px;
+	}
+	.topmenu .logo {
+		float: left;
+		margin: 0 101px 0 0; 
+	}
+	.topmenu .contact {
+		float: left;
+		width: 235px;
+		position: relative;
+		left: 490px;
+		text-align: right;
+	}
+	.topmenu ul.menu {
+		float: left;
+		width: 490px;
+		position: relative;
+		left: -235px;
+		padding: 25px 0 0 0;
+	}
+	.topmenu ul.menu > li {
+			float: left;
+			margin: 0 0 0 50px;
+	}
+	.topmenu ul.menu > li:first-child {
+		margin: 0;	
+	}
+	.sidebar{
+		width: 225px;
+		float: left;
+	}
+	.sidebar ul.menu > li {
+		text-align: left;
+		padding: 0 25px;
+	}
+	.sidebar ul.menu > li a:before {
+		left: 0;
+		margin: 0;	
+	}
+	.content {
+		float: left;
+		width: 715px;
+		margin: 0 10px;
+	}
+	.products {
+		margin-bottom: 10px;
+	}
+	.products h4 {
+		text-align: left;
+	}
+	.products h4:before {
+		left: 0;
+		margin: 0;
+	}
+	.products .items {
+		margin: 0 -10px;
+	}
+	.products .items .item {
+		width: 225px;
+		float: left;
+		margin: 0 10px 20px 10px;
+	}
+	.footer {
+		padding-bottom: 15px;
+		height: 79px;
+		box-sizing: border-box;
+		position: absolute;
+		bottom: 0;
+	}
+	.footer .copyright {
+		float: left;
+		width: 260px;
+		position: relative;
+		left: 420px;
+		text-align: right;
+		line-height: 32px;
+		margin: 0;
+	}
+	.footer .copyright a {
+		color: inherit;
+	}
+	.footer .rights {
+		float: left;
+		width: 420px;
+		position: relative;
+		left: -260px;
+		line-height: 32px;
+		padding-top: 32px;
+		margin: 0;
+	}
+	.footer .schedule {
+		float: left;
+		width: 260px;
+		text-align: left;
+		line-height: 32px;
+		margin: 0;
+	}
+	.body {
+		margin-bottom: 45px;
+	}
+
+}
