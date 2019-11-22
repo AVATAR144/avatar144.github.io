@@ -1,0 +1,55 @@
+body {
+  background: #000;
+}
+
+.gotop {
+  width: 58px;
+  height: 58px;
+  background: url(../img/gotop_mobile.png) no-repeat center center;
+  cursor: pointer;
+  border-right: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.gotop:hover {
+  background: url(../img/knopka_aktiv.png) no-repeat;
+}
+
+.gotop:active {
+  background: url(../img/knopka_pres.png) no-repeat;
+}
+
+.gotop {
+    background: url(../img/gotop.png) no-repeat center center;
+}
+
+ul#menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: rgba(0, 0, 0, 0);
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 320px;
+  width: 350px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px;
+}
+button.severnoe_siyan {
+  background: url(../img/severnoe_siyanie.jpg) no-repeat center top;
+
+}
+button.volshebnik_izumrudnogo_goroda {
+  background: url(../img/volshebnik_izumrudnogo_goroda.jpg) no-repeat center top;
+
+}
