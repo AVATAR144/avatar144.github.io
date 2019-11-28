@@ -52,7 +52,7 @@ body {
   left: -50%;
   width: 200%;
   height: 200%;
-  border-radius: 40%;
+  border-radius: 80%;
   background: rgb(41, 39, 39);
   opacity: 0.9;
   animation: animate2 5s linear infinite;
