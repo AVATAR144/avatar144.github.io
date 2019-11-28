@@ -30,7 +30,7 @@ body {
   width: 200%;
   height: 200%;
   border-radius: 40%;
-  background: rgb(41, 39, 39);
+  background: #111;
   opacity: 0.8;
   animation: animate 12s linear infinite;
 }
