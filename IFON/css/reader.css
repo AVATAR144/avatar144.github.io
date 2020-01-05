@@ -490,7 +490,7 @@ header.active .btn-blank {
 .btn-blank .reader-icon.reader-icon-contents,
 .btn .reader-icon.reader-icon-contents {
   background-position: 0 0;
-  background-image: url(../images/icons/menu.svg);
+  background-image: url(/IFON/images/menu.png);
   background-size: contain;
   width: 18px;
   height: 18px;
