@@ -254,7 +254,7 @@ section.embed>.renderer>.text-container .center {
 
 #reader .pagination .pagination-arrow {
   transition: opacity .3s;
-  background-image: url(../images/icons/pagination.svg);
+  background-image: url(/IFON/images/pagination.png);
   background-repeat: no-repeat;
   height: 59px;
   left: 50%;
